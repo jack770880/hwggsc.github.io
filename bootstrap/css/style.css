@@ -1,0 +1,50 @@
+.carousel-indicators {
+    position: absolute;
+
+    left: 0;
+    right: 0;
+    bottom: -20px !important;
+}
+
+#carouselExampleIndicators {
+    margin-top: 66px;
+}
+
+.index-h2 {
+    text-align: center;
+    color: brown;
+}
+
+.index-h2-p {
+    font-size: calc(0.7rem + 0.8vw) !important;
+    text-align: center;
+    color: #666;
+    letter-spacing: 1px;
+}
+
+@media screen and(min-width:1200px) {
+    .index-h2 {
+        font-size: 200%;
+    }
+
+    .index-h2 {
+        font-size: 160%;
+    }
+}
+
+@media screen and(max-width:767px) {
+    p.text-muted {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .index-h2 {
+        margin-top: 1rem;
+
+    }
+
+    .index-h2-p {
+        margin-bottom: 1.5rem;
+    }
+
+}
